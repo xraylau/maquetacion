@@ -1,0 +1,281 @@
+body{
+    background-color: rgb(48, 46, 46);
+
+}
+.barranavegacion { 
+    background-color: rgb(83, 83, 83);
+     height: 150px;
+     width: 100%;  
+     position: absolute; 
+}
+.cajagrisclaro1 {
+    background-color: rgb(160, 160, 160);
+    height: 50px;
+    width: 50px;
+    margin-left: 65%;
+    margin-top: 50px;
+    position: relative; 
+    
+}
+
+.cajagrisclaro {
+    background-color: rgb(160, 160, 160);
+    height: 50px;
+    width: 50px;
+    margin-left: 10%;
+    margin-top: 30px;
+    position: relative; 
+    
+}
+.cajagrisclaro2 {
+    background-color: rgb(160, 160, 160);
+    height: 50px;
+    width: 50px;
+    margin-left: 70%;
+    margin-top: -50px;
+    position: relative; 
+    
+}
+.cajablanca1 {
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    margin-left: 74%;
+    margin-top: -50px;
+    position: relative; 
+
+}
+.cajablanca2{
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    margin-left: 85%;
+    margin-top: -50px;
+    position: relative; 
+}
+.cajanaranja1{
+
+    background-color: #ff6600;
+    height: 50px;
+    width: 50px;
+    margin-left: 96%;
+    margin-top: -50px;
+    position: relative; 
+}
+.cajagrisgrande{
+     background-color: rgb(83, 83, 83);
+     width: 80%;
+     height: 500px;
+     margin-top: 200px;
+     position: absolute; 
+    margin-left: 10%;
+}
+.cajablancaancha{
+   background-color: white;
+    height: 50px;
+    width: 350px;
+    margin-left: 30%;
+    margin-top: 200px;
+    position: relative; 
+}
+.cajanaranja2{
+
+    background-color:  #ff6600;
+    height: 50px;
+    width: 50px;
+    margin-left: 60%;
+    margin-top: -50px;
+    position: relative; 
+}
+
+.fondonegro{
+    background-color: rgb(48, 46, 46);
+    height: 750px;
+    width: 100%;
+   
+}
+.fondonegro2{
+    background-color: rgb(48, 46, 46);
+    height: 750px;
+    width: 100%;
+    position: absolute;
+   
+}
+.cajanaranjaGrande{
+    background-color: #ff6600;
+    height: 250px;
+    width: 200px;
+    margin-left: 10%;
+    margin-top: 50px;
+    position: relative; 
+}
+.secciontexto{
+    height: 250px;
+    width: 700px;
+    margin-left: 25%;
+    margin-top: -250px;
+    text-align: justify;
+}
+.integrantes{
+
+    height: 250px;
+    width: 400px;
+    margin-left: 80%;
+    margin-top: -350px;
+
+}
+.fototexto{
+    background-color: rgb(160, 160, 160);
+    height: 50px;
+    width: 50px;
+    margin-top: 70px;
+    position: relative; 
+}
+.titulo{
+    color: beige;
+    height: 50px;
+    width: 150px;
+    margin-top: 70px;
+    margin-left: 100%;
+    position: relative; 
+    text-align: justify;
+
+}
+.parrafo{
+    color: rgb(105, 105, 105);
+    height: 50px;
+    width: 150px;
+    margin-left: 100%;
+    position: relative; 
+    text-align: justify;
+
+}
+
+@media (max-width: 1024px) {
+    .barranavegacion {
+        height: 120px;
+    }
+    
+    .cajagrisclaro1, .cajagrisclaro2 {
+        margin-left: 55%;
+    }
+    
+    .cajablanca1, .cajablanca2 {
+        width: 120px;
+    }
+    
+    .cajagrisgrande {
+        height: 400px;
+        margin-top: 150px;
+    }
+    
+    .cajablancaancha {
+        width: 280px;
+        margin-left: 25%;
+    }
+    
+    .secciontexto {
+        width: 500px;
+        margin-left: 30%;
+    }
+    
+    .integrantes {
+        margin-left: 60%;
+        margin-top: -300px;
+    }
+}
+
+@media (max-width: 767px) {
+    .barranavegacion {
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 10px;
+    }
+    
+    .cajagrisclaro1, .cajagrisclaro2, 
+    .cajablanca1, .cajablanca2,
+    .cajanaranja1 {
+        margin: 5px;
+        height: 40px;
+        position: static;
+    }
+    
+    .cajagrisclaro1, .cajagrisclaro2 {
+        width: 40px;
+    }
+    
+    .cajablanca1, .cajablanca2 {
+        width: 80px;
+    }
+    
+    .cajanaranja1 {
+        width: 40px;
+    }
+    
+    .cajagrisgrande {
+        height: 300px;
+        margin-top: 120px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .cajablancaancha {
+        width: 200px;
+        margin-left: 15%;
+        margin-top: 150px;
+    }
+    
+    .cajanaranja2 {
+        margin-left: 50%;
+    }
+    
+    .fondonegro2 {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    
+    .cajanaranjaGrande {
+        height: 150px;
+        width: 150px;
+        margin: 30px auto;
+        position: static;
+    }
+    
+    .secciontexto {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+        height: auto;
+    }
+    
+    .integrantes {
+        width: 90%;
+        margin: 30px auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .fototexto {
+        margin: 20px 0;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .titulo, .parrafo {
+        margin: 5px 0;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .foto {
+        height: 80px;
+        width: 80px;
+    }
+}

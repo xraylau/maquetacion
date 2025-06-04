@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #231D1F;
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: #58595B;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-nav {
+    background-color: #58595B;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.botonPrincipal {
+    background-color: #EE611F;
+    border: none;
+    color: rgb(0, 0, 0);
+    min-width: 150px;
+    height: 50px;
+    transition: all 0.3s ease;
+}
+
+.botonPrincipal:hover {
+    background-color: #d4531a;
+    transform: scale(1.05);
+}
+
+.botonPrincipal a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botonSecundario {
+    background-color: #6d6967;
+    border: none;
+    color: rgb(0, 0, 0);
+    min-width: 120px;
+    height: 50px;
+    transition: all 0.3s ease;
+}
+
+.botonSecundario:hover {
+    background-color: #ee6e19;
+}
+
+.botonSecundario a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cuerpo {
+    padding: 20px 0;
+    background-color: #414143;
+}
+
+#contenidoPrincipal {
+    background-color: #414143;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#seccion {
+    background-color: #6D6E70;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contenido1, .contenido2, .seccion1 {
+    background-color: #414143;
+    border-radius: 8px;
+}
+
+.video {
+    background-color: #cb5823;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.video1 {
+    background-color: #E6A235;
+    width: 50%;
+    height: 300px;
+    position: relative;
+}
+
+.pagina1 {
+    background-color: #bdbfc7;
+    height: 50px;
+    width: 50%;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.parrafo1 {
+    background-color: grey;
+    width: 60%;
+    min-height: 100px;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+/*Responsive de la primera página*/
+@media (max-width: 991.98px) {
+    #contenidoPrincipal, #seccion {
+        width: 100% !important;
+    }
+    
+    .botonSecundario {
+        margin-left: 0 !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+    
+    .botonPrincipal, .botonSecundario {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .video, .video1 {
+        margin-left: 0;
+    }
+    
+    .pagina1, .parrafo1 {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    #contenidoPrincipal {
+        padding-right: 30px;
+    }
+    
+    #seccion {
+        padding-left: 30px;
+    }
+}
+
+
+
+/* segunda pagina*/
+.contenidoTop{
+    background-color: #949597;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+}
+
+.card1{
+    background-color: red;
+    width: 100%;
+    height: 300px;
+}
+.imagen{
+    background-color: blueviolet;
+    width: 35%;
+    height: 300px;
+}

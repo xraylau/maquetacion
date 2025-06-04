@@ -1,0 +1,194 @@
+body{
+    background-color: rgb(48, 46, 46);
+
+}
+.barranavegacion { 
+    background-color: rgb(83, 83, 83);
+     height: 150px;
+     width: 100%;  
+     position: absolute; 
+}
+.cajagrisclaro1 {
+    background-color: rgb(160, 160, 160);
+    height: 50px;
+    width: 50px;
+    margin-left: 65%;
+    margin-top: 50px;
+    position: relative; 
+    
+}
+
+.cajagrisclaro2 {
+    background-color: rgb(160, 160, 160);
+    height: 50px;
+    width: 50px;
+    margin-left: 70%;
+    margin-top: -50px;
+    position: relative; 
+    
+}
+.cajablanca1 {
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    margin-left: 74%;
+    margin-top: -50px;
+    position: relative; 
+
+}
+.cajablanca2{
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    margin-left: 85%;
+    margin-top: -50px;
+    position: relative; 
+}
+.cajanaranja1{
+
+    background-color:#ff6600;
+    height: 50px;
+    width: 50px;
+    margin-left: 96%;
+    margin-top: -50px;
+    position: relative; 
+}
+
+
+.cajagrisgrande{
+     background-color: rgb(160, 158, 158);
+     width: 80%;
+     height: 500px;
+     margin-top: 200px;
+     position: absolute; 
+    margin-left: 10%;
+}
+.cajagrisclaro7 {
+    background-color: rgb(73, 73, 73);
+    height: 50px;
+    width: 50px;
+    margin-left: 35%;
+    margin-top: 400px;
+    position: relative; 
+    
+}
+.cajagrisclaro8 {
+    background-color: rgb(73, 73, 73);
+    height: 50px;
+    width: 50px;
+    margin-left: 45%;
+    margin-top: -50px;
+    position: relative; 
+    
+}
+.cajagrisclaro9 {
+    background-color: rgb(73, 73, 73);
+    height: 50px;
+    width: 50px;
+    margin-left: 55%;
+    margin-top: -50px;
+    position: relative; 
+    
+}
+.cajagrisclaro0 {
+    background-color: rgb(73, 73, 73);
+    height: 50px;
+    width: 50px;
+    margin-left: 65%;
+    margin-top: -50px;
+    position: relative; 
+    
+}
+
+.caja1{ 
+     height: 450px;
+     width: 33%;  
+     position: absolute; 
+     margin-top: 800px;
+     margin-left: 20px;
+}
+.cajanaranjanacha{
+    background-color: #ff6600;
+    height: 20px;
+    width: 60%;
+    position: relative; 
+}
+.texto{
+    color: rgb(105, 105, 105);
+    position: relative; 
+    text-align: justify;
+
+}
+.caja2{ 
+     height: 450px;
+     width: 33%;  
+     position: absolute; 
+     margin-top: 800px;
+     margin-left: 34%;
+     
+}
+.caja3{ 
+     height: 450px;
+     width: 33%;  
+     position: absolute; 
+     margin-top: 800px;
+     margin-left: 68%;
+   
+}
+
+.cajagrisclaro11, .cajagrisclaro12, .cajagrisclaro13,
+        .cajagrisclaro14, .cajagrisclaro15, .cajagrisclaro16 {
+            background-color: rgb(73, 73, 73);
+            height: 50px;
+            width: 50px;
+            display: inline-block;
+            margin-right: 15px;
+            position: relative;
+        }
+
+
+@media (max-width: 1024px) {
+    .barranavegacion {
+        height: 120px;
+    }
+    
+    .cajagrisclaro1, .cajagrisclaro2 {
+        margin-left: 55%;
+    }
+    
+    .cajablanca1, .cajablanca2 {
+        width: 120px;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .barranavegacion {
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 10px;
+    }
+    
+    .cajagrisclaro1, .cajagrisclaro2, 
+    .cajablanca1, .cajablanca2,
+    .cajanaranja1 {
+        margin: 5px;
+        height: 40px;
+        position: static;
+    }
+    
+    .cajagrisclaro1, .cajagrisclaro2 {
+        width: 40px;
+    }
+    
+    .cajablanca1, .cajablanca2 {
+        width: 80px;
+    }
+    
+    .cajanaranja1 {
+        width: 40px;
+    }
+    
+}
